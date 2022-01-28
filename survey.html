@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SurveyPageWithCCS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Personal Data Protection | Choose your favourite constitutional proposal</h1>
+    <h2> Chile is currently discussing the text of a new Constitution, and citizens have been
+    empowered to make proposals on specific subjects to be included in it. Please complete this form to vote for your favourite proposal}
+    personal data protection</h2>
+
+<img src="descarga.png" width="150">
+<br><br>
+
+    <div>
+        Name:
+        <input type="text" placeholder="Ej: Juan Perez" name="name">
+    </div><br>
+
+    <div>
+        Email:
+        <input type="text" placeholder="Ej: juanperez@gmail.com" name="email">
+    </div><br>
+
+    <div>
+        ID Number:
+        <input type="text" placeholder="Ej: 12.345.678-k" name="ID Number">
+    </div><br>
+
+    <div>
+        Gender:
+        <input type="radio" value="Man" name="gender">Man
+        <input type="radio" value="Woman" name="gender">Woman
+        <input type="radio" value="Other" name="gender">Other
+    </div><br>
+
+    <div>
+        Age:
+        <input name="age" list="age" placeholder="Age">
+        <datalist id="age">
+            <option value="10-25">
+            <option value="26-40">
+            <option value="41-55">
+            <option value="55-100">
+        </datalist>
+    </div><br><br>
+
+Here you can find information on each proposal:
+<ol>
+    <li> <a href="https://iniciativas.chileconvencion.cl/m/iniciativa_popular/o/23742">Proposal no.1:</a> "HACIA UN CHILE CON NIVELES ROBUSTOS DE PROTECCIÓN DE LA PRIVACIDAD, DATOS PERSONALES, HONRA E INVIOLABILIDAD DEL HOGAR, COMUNICACIONES Y DOCUMENTOS"</li>
+    <li> <a href="https://iniciativas.chileconvencion.cl/m/iniciativa_popular/o/20034">Proposal no.2:</a> "DERECHO A LA PROTECCIÓN DE DATOS PERSONALES Y SENSIBLES" </li>
+    <li> <a href="https://iniciativas.chileconvencion.cl/m/iniciativa_popular/o/57970">Proposal no.3:</a> "DERECHO A LA PRIVACIDAD, PROTECCIÓN DE DATOS PERSONALES Y CIBERSEGURIDAD" </li>
+
+<br>
+Your option:
+<input name="option" list="option" placeholder="Proposal number">
+<datalist id="option">
+<option value="Proposal no.1">
+<option value="Proposal no.2">
+<option value="Proposal no.3">
+</datalist>
+<br><br>
+<div>
+     <input type="submit" placeholder="Send">
+</div>
+
+</body>
+
+</html>
